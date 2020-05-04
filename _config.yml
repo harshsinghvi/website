@@ -23,7 +23,7 @@ author: "i@nsomniac_coder"
 email: harshsnghvi98@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Personal Website for Portfolio 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/website" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 show_excerpts: true
 twitter_username: harshsinghvi29
