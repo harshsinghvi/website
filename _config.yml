@@ -1,0 +1,62 @@
+title: Harsh Singhvi
+author: harshsinghvi
+email: harshsinghvi98@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  Personal Website for Portfolio 
+
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Harsh Singhvi
+  tagline: Coding, Cyber Security, Cloud, IoT
+  date_format: "%b %-d, %Y"
+  sitemap: true # set to true to generate sitemap.xml content
+  analytics_id: UA-141565153-1
+  sitemap: true
+  disqus_shortname: games
+  # generate social links in footer
+  social_links:
+    twitter: harshsinghvi29
+    github:  harshsinghvi
+    linkedIn: in/harsh-singhvi-658968a1
+    #rss: rss
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    instagram: insomniac_coder
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    telegram: InsomniacCoder
+
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ - about.md
+
+nav_item:
+    - { url: '/', text: 'Home' }
+    - { url: '/about', text: 'About' }
+
+# Build settings
+theme: plainwhite
+
+plugins:
+  - jekyll-seo-tag
+  #- jekyll-feed
