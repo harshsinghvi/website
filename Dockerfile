@@ -1,11 +1,12 @@
 FROM insomniaccoder/jekyll-dev as site-builder
 ADD . /app
-WORKDIR /app
+WORKDIR /app 
+RUN git init 
 RUN bundle
-RUN bundle jekyll build 
+RUN bundle exec jekyll build
 
 FROM httpd 
-COPY --from=site-builder /app/_site /var/www/html
-RUN servie apache2 reload 
+COPY --from=site-builder /app/_site/ /usr/local/apache2/htdocs/ 
+ENV ServerName=localhost
 
-EXPOSE 80,443
+# RUN service httpd reload 

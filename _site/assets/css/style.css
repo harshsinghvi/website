@@ -449,11 +449,11 @@ header .social li i:hover { color: #999; }
 
 .navbar ul li:hover { background-color: rgba(255, 255, 255, 0.15); cursor: pointer; }
 
-.texture-black { background-image: url("/assets/textures/black.jpg"); }
+.texture-black { background-image: url("/website/assets/textures/black.jpg"); }
 
 .texture-black h2 { color: #999; }
 
-.texture-blue { background-image: url("/assets/textures/blue.jpg"); }
+.texture-blue { background-image: url("/website/assets/textures/blue.jpg"); }
 
 .texture-blue h2 { color: #ddd; }
 
@@ -461,11 +461,11 @@ header .social li i:hover { color: #999; }
 
 .texture-blue .post-date { color: #ccc; }
 
-.texture-red { background-image: url("/assets/textures/red.jpg"); }
+.texture-red { background-image: url("/website/assets/textures/red.jpg"); }
 
-.texture-purple { background-image: url("/assets/textures/purple.jpg"); }
+.texture-purple { background-image: url("/website/assets/textures/purple.jpg"); }
 
-.texture-green { background-image: url("/assets/textures/green.jpg"); }
+.texture-green { background-image: url("/website/assets/textures/green.jpg"); }
 
 .texture-green .post-date { color: #ccc; }
 
