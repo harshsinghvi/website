@@ -7,6 +7,6 @@ RUN bundle exec jekyll build
 
 FROM httpd 
 COPY --from=site-builder /app/_site/ /usr/local/apache2/htdocs/ 
-ENV ServerName=localhost
-
+# ENV ServerName=localhost
+ENV PORT=80
 # RUN service httpd reload 
